@@ -45,6 +45,126 @@ MathJax = {
         </tr>
     <tbody>
         <tr>
+            <td>Example for $N = 5$</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$
+                k = \begin{bmatrix}
+                    0 & 1 & 2 & -2 & -1
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    a & 0 & 0 & 0 & 0
+                    \\
+                    0 & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = ai$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & 0 & 0 & 0
+                    \\
+                    a & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a \sin(1 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & 0 & 0 & 0
+                    \\
+                    0 & - a \frac{N}{2} & 0 & 0 & a \frac{N}{2}
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a \cos(1 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & a \frac{N}{2} & 0 & 0 & a \frac{N}{2}
+                    \\
+                    0 & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a i \sin(1 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & a \frac{N}{2} & 0 & 0 & - a \frac{N}{2}
+                    \\
+                    0 & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a i \cos(1 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & 0 & 0 & 0
+                    \\
+                    0 & a \frac{N}{2} & 0 & 0 & a \frac{N}{2}
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
             <td>Bandlimited</td>
             <td></td>
         </tr>
