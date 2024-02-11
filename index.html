@@ -206,7 +206,7 @@ MathJax = {
                 \hat{u}_h
                 =
                 \begin{bmatrix}
-                    0 & 0 & - a \frac{5}{2} & a \frac{5}{2} & 0
+                    0 & 0 & a \frac{5}{2} & - a \frac{5}{2} & 0
                     \\
                     0 & 0 & 0 & 0 & 0
                 \end{bmatrix}
@@ -220,6 +220,78 @@ MathJax = {
         </tr>
         <tr>
             <td>$u(x) = a i \cos(2 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & 0 & 0 & 0
+                    \\
+                    0 &  0 & a \frac{5}{2} & a \frac{5}{2} & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a \sin(3 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & 0 & 0 & 0
+                    \\
+                    0 &  0 & a \frac{5}{2} & - a \frac{5}{2} & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a \cos(3 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & a \frac{5}{2} & a \frac{5}{2} & 0
+                    \\
+                    0 & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a i \sin(3 x)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    0 & 0 & - a \frac{5}{2} & a \frac{5}{2} & 0
+                    \\
+                    0 & 0 & 0 & 0 & 0
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                    1
+                    \\
+                    i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(x) = a i \cos(3 x)$</td>
             <td>$
                 \hat{u}_h
                 =
